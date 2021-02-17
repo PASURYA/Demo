@@ -26,7 +26,10 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Baseclass {
 	public static WebDriver   driver;
+private void meth() {
+	System.out.println("demo");
 
+}
 	public static void getDriver() {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\admin\\eclipse-workspace2\\Company\\driver\\chromedriver.exe");
