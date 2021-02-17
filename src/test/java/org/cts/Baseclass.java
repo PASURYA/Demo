@@ -26,8 +26,14 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Baseclass {
 	public static WebDriver   driver;
-private void meth() {
-	System.out.println("demo");
+	
+	private void meth() {
+		System.out.println("demo");
+	}
+private void demo() {
+	// TODO Auto-generated method stub
+
+
 
 }
 	public static void getDriver() {
